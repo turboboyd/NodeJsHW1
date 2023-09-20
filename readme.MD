@@ -1,4 +1,4 @@
-# Получаем и выводим весь список контактов в виде таблицы (console.table)
+# Receive and display all contacts in the list of video tables (console.table)
 
 node index.js --action list
 
@@ -6,7 +6,7 @@ node index.js --action list
 
 [Link to photo](https://ibb.co/Mcz3ntX)
 
-# Получаем контакт по id - выводим в консоль объект контакта или null, если контакта с таким id не существует.
+# We get a contact by id - we output the contact object to the console or null if a contact with such id does not exist.
 
 node index.js --action get --id 05olLMgyVQdWRwgKfg5J6
 
@@ -14,7 +14,7 @@ node index.js --action get --id 05olLMgyVQdWRwgKfg5J6
 
 [Link to photo](https://ibb.co/sy2YSTK)
 
-# Добавляем контакт и выводим в консоль созданный контакт
+# Add a contact and display the created contact in the console
 
 node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
 
@@ -22,7 +22,7 @@ node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-2
 
 [Link to photo](https://ibb.co/qkvGqYc)
 
-# Удаляем контакт и выводим в консоль удаленный контакт или null, если контакта с таким id не существует.
+# Delete the contact and display the deleted contact or null in the console if a contact with this id does not exist.
 
 node index.js --action remove --id qdggE76Jtbfd9eWJHrssH
 
